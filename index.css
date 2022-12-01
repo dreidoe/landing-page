@@ -1,3 +1,27 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+.text-center{
+    text-align: center;
+    background-color: greenyellow;
+    background:linear-gradient(45deg, blue, red);
+    color:white;
+}
+.flex{
+    display:flex;
+}
+.items-center{
+    align-items:center;
+}
+.justify-center{
+    justify-content: center;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-bold{
+    font-weight: bold;
+}
+.bg-primary{
+    background-color:
+}
