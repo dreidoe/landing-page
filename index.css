@@ -9,7 +9,7 @@ html {
     font-family: 'Roboto', sans-serif;
 
 }
-header{
+.bg-primary{
     background-color: var(--primary-color);
     padding:1rem;
     color:white;
@@ -24,16 +24,24 @@ header{
 
 .flex {
     display: flex;
-    align-items:center;
+    align-items: center;
 
 }
 
 .items-center {
     align-items: center;
+
+}
+.rounded{
+    border-radius:2px;
 }
 
 .justify-center {
     justify-content: center;
+}
+.flex-column {
+    flex-direction: column;
+    
 }
 
 .text-italic {
@@ -43,15 +51,42 @@ header{
 .text-bold {
     font-weight: bold;
 }
-
-.bg-primary {
-    background-color:
+gap{
+    gap:1rem;
 }
+
 
 #hero{
     background-image: url('./images/bgnewyork.jpg');
     background-size:cover;
     background-position:center;
-    height:100vh;
+    height:50vh;
     color:white;
 }
+h2 {
+    margin:0;
+}
+.bg-translucent{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:1rem;
+    color:white;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+  .button {
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
