@@ -49,8 +49,8 @@ html {
 .gap{
     gap:1rem;
 }
-.bg-secondary,.bg-secondary,.bg-tertiary{
-    columns: white;
+.bg-secondary, .bg-secondary, .bg-tertiary{
+    color: #333;
     padding:1rem;
 }
 .bg-primary{
@@ -108,3 +108,4 @@ h2 {
   .text-dark {
     color: #333;
   }
+  
