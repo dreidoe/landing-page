@@ -13,9 +13,8 @@ html {
 
 .text-center {
     text-align: center;
-    background-color: greenyellow;
-    background: linear-gradient(45deg, blue, red);
-    color: white;
+  
+
 }
 
 .flex {
@@ -47,7 +46,7 @@ html {
 .text-bold {
     font-weight: bold;
 }
-gap{
+.gap{
     gap:1rem;
 }
 .bg-secondary,.bg-secondary,.bg-tertiary{
@@ -99,4 +98,13 @@ h2 {
     cursor: pointer;
     padding: 0.5rem 1rem;
     margin:0.5;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .text-no-underline {
+    text-decoration: none;
+  }
+  .text-dark {
+    color: #333;
   }

@@ -29,11 +29,11 @@
             <form class="flex flex-column">
                 <label for="email" class="sr-only">Email</label>
                 <input type="email" id="email" placeholder="Enter your email">
-                <button type="submit">Sign Up</button>
+                <button class="button" type="submit">Sign Up</button>
             </form>
             </section>
         </div>
-        <section>
+        <section class="bg-secondary">
             <h2>Our Mission</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -41,10 +41,10 @@
                 doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
                 Quisquam, quae. Quisquam, quae.
             </p>
-            <a href="http://classics.mit.edu/">Click This Link</a>
+            <a href="http://classics.mit.edu/" class=" button text-dark text-no-underline inline-block ">Click This Link</a>
         </section>
 
-        <section>
+        <section class="bg-tertiary">
             <h2>Our Team</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -52,10 +52,10 @@
                 doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
                 Quisquam, quae. Quisquam, quae.
             </p>
-            <a href="http://classics.mit.edu/">Click This Link</a>
+            <a href="http://classics.mit.edu/"class=" button text-dark text-no-underline inline-block ">Click This Link</a>
         </section>
 
-        <section>
+        <section class=" bg-secondary text center">
             <h2>Our Services</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -63,25 +63,26 @@
                 doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
                 Quisquam, quae. Quisquam, quae.
             </p>
-            <a href="http://classics.mit.edu/">Click This Link</a>
+            <a href="http://classics.mit.edu/"class=" button text-dark text-no-underline inline-block ">Click This Link</a>
         </section>
 
-        <form>
+        <form class="bg-primary text center gap">
+            <h2 class="text center">How Did You Hear About Us ?</h2>
 
-            <label for="Contact-email">Email</label>
+            <label for="Contact-email" class="sr-only">Email</label>
             <input type="email" id="contact-email" placeholder="Enter email">
 
-            <label for="Name"> Name</label>
+            <label for="Name" class="sr-only"> Name</label>
             <input type="text" id="Name" placeholder="Enter Your Name">
 
 
-            <label for="Phone-number">Phone Number</label>
+            <label for="Phone-number" class="sr-only">Phone Number</label>
             <input type="tel" id="phone-number" placeholder="Enter Phone Number">
 
-            <label for="message">Enter Yor Message</label>
+            <label for="message" class="sr-only">Enter Yor Message</label>
             <textarea id="message" placeholder="Give Your Feedback"></textarea>
 
-            <label for="hear-select">How Did You Hear About Us ?</label>
+            <label for="hear-select" class="sr-only">How Did You Hear About Us ?</label>
             <select name="pets" id="hear-select">
                 <option value="">Please Choose An Option</option>
                 <option value="Dog">Dog</option>
@@ -92,9 +93,9 @@
                 <option value="Goldfish">Goldfish</option>
 
             </select>
-
-            <button class="button" type="submit" > Submit Contact Info</button>
-
+            <div>
+            <button type="submit" > Submit Contact Info</button>
+            </div>
         </form>
     </main>
 
