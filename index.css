@@ -1,27 +1,57 @@
-html{
-    font-family: 'Roboto', sans-serif;
+:root {
+    --primary-color: #845ec2;
+    --secondary-color: #b39cd0;
+    --tertiary-color: #fbeaff;
+    --accent-color: #00c9a7;
 }
-.text-center{
-    text-align: center;
-    background-color: greenyellow;
-    background:linear-gradient(45deg, blue, red);
+
+html {
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    background-color: var(--primary-color);
+    padding:1rem;
     color:white;
 }
-.flex{
-    display:flex;
+
+.text-center {
+    text-align: center;
+    background-color: greenyellow;
+    background: linear-gradient(45deg, blue, red);
+    color: white;
 }
-.items-center{
+
+.flex {
+    display: flex;
     align-items:center;
+
 }
-.justify-center{
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
     justify-content: center;
 }
-.text-italic{
+
+.text-italic {
     font-style: italic;
 }
-.text-bold{
+
+.text-bold {
     font-weight: bold;
 }
-.bg-primary{
+
+.bg-primary {
     background-color:
+}
+
+#hero{
+    background-image: url('./images/bgnewyork.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    color:white;
 }
