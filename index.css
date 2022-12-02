@@ -9,11 +9,7 @@ html {
     font-family: 'Roboto', sans-serif;
 
 }
-.bg-primary{
-    background-color: var(--primary-color);
-    padding:1rem;
-    color:white;
-}
+
 
 .text-center {
     text-align: center;
@@ -54,6 +50,19 @@ html {
 gap{
     gap:1rem;
 }
+.bg-secondary,.bg-secondary,.bg-tertiary{
+    columns: white;
+    padding:1rem;
+}
+.bg-primary{
+    background-color: var(--primary-color);
+}
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+.bg-tertiary{
+    background-color: var(--tertiary-color);
+}
 
 
 #hero{
@@ -86,7 +95,8 @@ h2 {
   .button {
     background-color: var(--accent-color);
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     cursor: pointer;
     padding: 0.5rem 1rem;
+    margin:0.5;
   }
