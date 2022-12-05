@@ -1,3 +1,4 @@
+/* these are globally accessible to any and all elements throughout the page */
 :root {
     --primary-color: #845ec2;
     --secondary-color: #b39cd0;
